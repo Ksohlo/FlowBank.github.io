@@ -104,7 +104,10 @@ overflow-x: hidden;
 
 
     @media (max-width:1000px) {
-    #navbar{
+    body{
+        overflow-x: hidden;
+    }    
+        #navbar{
         height: 10vh;
         width: 100%;
         margin: 0 auto;
